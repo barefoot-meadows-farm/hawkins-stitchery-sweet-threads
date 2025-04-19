@@ -1,9 +1,9 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Scissors, Needle, Thread } from "lucide-react";
+import { Scissors } from "lucide-react";
+import { Needle, Thread } from "@/components/ui/StitcheryIcons";
 
 const Index = () => {
   return (

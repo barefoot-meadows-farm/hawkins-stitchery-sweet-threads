@@ -69,7 +69,13 @@ const Header = () => {
   );
 };
 
-const NavItem = ({ to, children, onClick }) => (
+interface NavItemProps {
+  to: string;
+  children: React.ReactNode;
+  onClick?: () => void;
+}
+
+const NavItem = ({ to, children, onClick }: NavItemProps) => (
   <NavLink
     to={to}
     onClick={onClick}
