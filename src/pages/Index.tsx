@@ -121,9 +121,9 @@ const Index = () => {
                 title="Address"
                 info={
                   <>
-                    123 Stitchery Lane
+                    1114 Boanerges Church Rd.
                     <br />
-                    Hawkins Town, HT 12345
+                    Old Fort, TN 37362
                   </>
                 }
               />
@@ -131,7 +131,7 @@ const Index = () => {
               <ContactInfo
                 icon={<Phone />}
                 title="Phone"
-                info="(555) 123-4567"
+                info="(423) 241-2320"
               />
 
               <ContactInfo
