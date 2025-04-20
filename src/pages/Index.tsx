@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Scissors } from "lucide-react";
-import { Needle, Thread } from "@/components/ui/StitcheryIcons";
+import { Thread } from "@/components/ui/StitcheryIcons";
 
 const Index = () => {
   return (
@@ -28,16 +28,11 @@ const Index = () => {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-serif font-bold text-center text-[#6B4226] mb-12">Our Services</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ServiceCard 
               icon={<Scissors className="h-10 w-10 text-[#8B5A3C]" />}
               title="Alterations"
               description="Expert alterations for all garments. From hemming to resizing, we ensure your clothes fit perfectly."
-            />
-            <ServiceCard 
-              icon={<Needle className="h-10 w-10 text-[#8B5A3C]" />}
-              title="Custom Sewing"
-              description="Bring your ideas to life with custom-made clothing and accessories tailored to your preferences."
             />
             <ServiceCard 
               icon={<Thread className="h-10 w-10 text-[#8B5A3C]" />}
