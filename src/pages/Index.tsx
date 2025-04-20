@@ -68,20 +68,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* Testimonial Section */}
-      <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#E5DEFF]/30">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-serif font-bold text-[#6B4226] mb-12">What Our Customers Say</h2>
-          
-          <div className="max-w-3xl mx-auto">
-            <p className="text-xl italic text-gray-700 mb-6">
-              "Ms. Hawkins altered my wedding dress to perfection. Her attention to detail and craftsmanship made my special day even more beautiful. I cannot recommend her services enough!"
-            </p>
-            <p className="font-semibold text-[#8B5A3C]">— Sarah Johnson</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
