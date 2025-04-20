@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Scissors } from "lucide-react";
@@ -46,8 +45,6 @@ const Header = () => {
                 <div className="absolute top-16 left-0 right-0 bg-[#FDE1D3] shadow-md z-50">
                   <nav className="flex flex-col p-4">
                     <NavItem to="/" onClick={() => setIsMenuOpen(false)}>Home</NavItem>
-                    <NavItem to="/about" onClick={() => setIsMenuOpen(false)}>About</NavItem>
-                    <NavItem to="/services" onClick={() => setIsMenuOpen(false)}>Services</NavItem>
                     <NavItem to="/gallery" onClick={() => setIsMenuOpen(false)}>Gallery</NavItem>
                     <NavItem to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</NavItem>
                   </nav>
@@ -57,8 +54,6 @@ const Header = () => {
           ) : (
             <nav className="flex items-center space-x-6">
               <NavItem to="/">Home</NavItem>
-              <NavItem to="/about">About</NavItem>
-              <NavItem to="/services">Services</NavItem>
               <NavItem to="/gallery">Gallery</NavItem>
               <NavItem to="/contact">Contact</NavItem>
             </nav>
