@@ -16,21 +16,39 @@ const Index = () => {
   const galleryItems = [
     {
       id: 1,
-      title: "Wedding Dress Alterations",
-      description: "Custom alterations for a vintage wedding gown, preserving its classic charm while ensuring a perfect fit.",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      title: "Prom Dress Alterations",
+      description: "Beautiful hot pink prom dress with perfect fit and elegant bow detail, showcasing our expertise in formal wear alterations.",
+      image: "/lovable-uploads/b92a401b-ccb6-4e56-bc23-3b4ccd16dd7d.png"
     },
     {
       id: 2,
-      title: "Custom Quilt",
-      description: "A handmade quilt created from family heirloom fabrics, carefully stitched to preserve memories across generations.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      title: "Wedding Dress Fitting",
+      description: "Stunning lace wedding gown with intricate beadwork and perfect train positioning, demonstrating our bridal alteration skills.",
+      image: "/lovable-uploads/6c3bd8bb-61da-401d-a49b-e1f4665e0a92.png"
     },
     {
       id: 3,
-      title: "Business Suit Tailoring",
-      description: "Precision tailoring for a professional wardrobe, creating the perfect fit for confidence in the workplace.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      title: "Bridesmaid Dress",
+      description: "Elegant royal blue bridesmaid dress with strapless design, tailored for a flawless silhouette and comfortable fit.",
+      image: "/lovable-uploads/a7c3c136-e0e6-4a43-bc92-96880ec114f5.png"
+    },
+    {
+      id: 4,
+      title: "Formal Evening Wear",
+      description: "Striking red evening gown with tiered ruffles and perfect hemline, showcasing our attention to detail in formal alterations.",
+      image: "/lovable-uploads/2ce5c14e-623d-4256-bcea-a3efad7a04a6.png"
+    },
+    {
+      id: 5,
+      title: "Bridal Gown Perfection",
+      description: "Exquisite lace wedding dress with detailed beadwork and cathedral train, representing our finest bridal alteration work.",
+      image: "/lovable-uploads/19e49bb6-8841-41e2-b9d1-91e742bf096f.png"
+    },
+    {
+      id: 6,
+      title: "Prom Memories",
+      description: "Glamorous sequined green prom dress capturing special moments, demonstrating our commitment to making every occasion perfect.",
+      image: "/lovable-uploads/f678d60a-772e-4db5-9e21-091ba17f938f.png"
     }
   ];
 
