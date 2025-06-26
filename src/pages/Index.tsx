@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -185,7 +186,7 @@ const Index = () => {
                 />
               </div>
 
-              <div className="flex justify-center lg:justify-end">
+              <div className="flex justify-center">
                 <img
                   src="/lovable-uploads/28855fb1-ddf1-436f-9353-ad203647ab87.png"
                   alt="Hawkins Little Stitchery Business Sign"
