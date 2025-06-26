@@ -78,7 +78,7 @@ const Index = () => {
             <ServiceCard
               icon={<Scissors className="h-10 w-10 text-[#8B5A3C]" />}
               title="Alterations"
-              description="Expert alterations for all garments. From hemming to resizing, we ensure your clothes fit perfectly."
+              description="Expert alterations for gowns, dresses, suits, and coats. From hemming to resizing, we ensure your formal wear fits perfectly."
             />
             <ServiceCard
               icon={<Thread className="h-10 w-10 text-[#8B5A3C]" />}
