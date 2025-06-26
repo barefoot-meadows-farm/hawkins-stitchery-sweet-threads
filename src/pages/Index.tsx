@@ -11,6 +11,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 const Index = () => {
   const galleryItems = [
@@ -95,7 +96,14 @@ const Index = () => {
             Gallery
           </h2>
           
-          <Carousel className="w-full max-w-4xl mx-auto">
+          <Carousel 
+            className="w-full max-w-4xl mx-auto"
+            plugins={[
+              Autoplay({
+                delay: 3000,
+              }),
+            ]}
+          >
             <CarouselContent>
               {galleryItems.map((item) => (
                 <CarouselItem key={item.id}>
