@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -190,7 +189,7 @@ const Index = () => {
                 <img
                   src="/lovable-uploads/28855fb1-ddf1-436f-9353-ad203647ab87.png"
                   alt="Hawkins Little Stitchery Business Sign"
-                  className="w-full max-w-sm h-auto rounded-lg shadow-md"
+                  className="w-full max-w-xs h-auto rounded-lg shadow-md"
                 />
               </div>
             </div>
