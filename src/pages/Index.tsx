@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -139,52 +138,62 @@ const Index = () => {
 
       {/* Contact Section */}
       <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#FDE1D3]/40">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-serif font-bold text-[#6B4226] mb-8 text-center">
             Contact Us
           </h2>
 
-          <Card className="p-8 shadow-md border-none bg-white/80">
-            <div className="space-y-6">
-              <ContactInfo
-                icon={<MapPin />}
-                title="Address"
-                info={
-                  <>
-                    1114 Boanerges Church Rd.
-                    <br />
-                    Old Fort, TN 37362
-                  </>
-                }
-              />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <Card className="p-8 shadow-md border-none bg-white/80">
+              <div className="space-y-6">
+                <ContactInfo
+                  icon={<MapPin />}
+                  title="Address"
+                  info={
+                    <>
+                      1114 Boanerges Church Rd.
+                      <br />
+                      Old Fort, TN 37362
+                    </>
+                  }
+                />
 
-              <ContactInfo
-                icon={<Phone />}
-                title="Phone"
-                info="(423) 241-2320"
-              />
+                <ContactInfo
+                  icon={<Phone />}
+                  title="Phone"
+                  info="(423) 241-2320"
+                />
 
-              <ContactInfo
-                icon={<Mail />}
-                title="Email"
-                info="mshawkins@littlestitchery.com"
-              />
+                <ContactInfo
+                  icon={<Mail />}
+                  title="Email"
+                  info="mshawkins@littlestitchery.com"
+                />
 
-              <ContactInfo
-                icon={<Clock />}
-                title="Hours"
-                info={
-                  <>
-                    Monday - Friday: 9am - 5pm
-                    <br />
-                    Saturday: 10am - 2pm
-                    <br />
-                    Sunday: Closed
-                  </>
-                }
+                <ContactInfo
+                  icon={<Clock />}
+                  title="Hours"
+                  info={
+                    <>
+                      Monday - Friday: 9am - 5pm
+                      <br />
+                      Saturday: 10am - 2pm
+                      <br />
+                      Sunday: Closed
+                    </>
+                  }
+                />
+              </div>
+            </Card>
+
+            <div className="flex justify-center lg:justify-end">
+              <img
+                src="/lovable-uploads/28855fb1-ddf1-436f-9353-ad203647ab87.png"
+                alt="Hawkins Little Stitchery Business Sign"
+                className="w-full max-w-md h-auto rounded-lg shadow-md"
               />
             </div>
-          </Card>
+          </div>
         </div>
       </section>
     </div>
