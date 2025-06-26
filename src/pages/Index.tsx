@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -143,8 +144,8 @@ const Index = () => {
             Contact Us
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-            <Card className="p-8 shadow-md border-none bg-white/80">
+          <Card className="p-8 shadow-md border-none bg-white/80">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
               <div className="space-y-6">
                 <ContactInfo
                   icon={<MapPin />}
@@ -184,16 +185,16 @@ const Index = () => {
                   }
                 />
               </div>
-            </Card>
 
-            <div className="flex justify-center lg:justify-end">
-              <img
-                src="/lovable-uploads/28855fb1-ddf1-436f-9353-ad203647ab87.png"
-                alt="Hawkins Little Stitchery Business Sign"
-                className="w-full max-w-md h-auto rounded-lg shadow-md"
-              />
+              <div className="flex justify-center lg:justify-end">
+                <img
+                  src="/lovable-uploads/28855fb1-ddf1-436f-9353-ad203647ab87.png"
+                  alt="Hawkins Little Stitchery Business Sign"
+                  className="w-full max-w-sm h-auto rounded-lg shadow-md"
+                />
+              </div>
             </div>
-          </div>
+          </Card>
         </div>
       </section>
     </div>
