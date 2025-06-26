@@ -100,7 +100,7 @@ const Index = () => {
             className="w-full mx-auto"
             plugins={[
               Autoplay({
-                delay: 3000,
+                delay: 8000,
               }),
             ]}
             opts={{
