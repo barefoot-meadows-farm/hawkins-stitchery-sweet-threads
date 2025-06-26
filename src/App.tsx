@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +24,6 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
-          <Footer />
         </div>
       </BrowserRouter>
     </TooltipProvider>
