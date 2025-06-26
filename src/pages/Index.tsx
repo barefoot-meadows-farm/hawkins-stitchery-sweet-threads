@@ -91,31 +91,35 @@ const Index = () => {
 
       {/* Gallery Section */}
       <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#F2FCE2]/40">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-serif font-bold text-center text-[#6B4226] mb-12">
             Gallery
           </h2>
           
           <Carousel 
-            className="w-full max-w-4xl mx-auto"
+            className="w-full mx-auto"
             plugins={[
               Autoplay({
                 delay: 3000,
               }),
             ]}
+            opts={{
+              align: "center",
+              loop: true,
+            }}
           >
-            <CarouselContent>
+            <CarouselContent className="-ml-2 md:-ml-4">
               {galleryItems.map((item) => (
-                <CarouselItem key={item.id}>
+                <CarouselItem key={item.id} className="pl-2 md:pl-4 basis-full md:basis-4/5 lg:basis-3/4">
                   <Card className="border-none shadow-md overflow-hidden">
                     <CardContent className="p-0">
                       <div className="relative">
                         <img
                           src={item.image}
                           alt={item.title}
-                          className="w-full h-[400px] object-cover"
+                          className="w-full h-[500px] md:h-[600px] object-contain bg-gray-50"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col justify-end p-6">
                           <h3 className="text-xl font-serif font-bold text-white mb-2">
                             {item.title}
                           </h3>
@@ -127,8 +131,8 @@ const Index = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="left-4" />
+            <CarouselNext className="right-4" />
           </Carousel>
         </div>
       </section>
