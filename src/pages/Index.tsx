@@ -168,7 +168,7 @@ const Index = () => {
                 <ContactInfo
                   icon={<Mail />}
                   title="Email"
-                  info="mshawkins@littlestitchery.com"
+                  info="lois.hawkins55@aol.com"
                 />
 
                 <ContactInfo

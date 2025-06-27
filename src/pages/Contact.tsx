@@ -17,19 +17,19 @@ const Contact = () => {
             <ContactInfo 
               icon={<MapPin />}
               title="Address"
-              info={<>123 Stitchery Lane<br />Hawkins Town, HT 12345</>}
+              info={<>1114 Boanerges Church Rd.<br />Old Fort, TN 37362</>}
             />
             
             <ContactInfo 
               icon={<Phone />}
               title="Phone"
-              info="(555) 123-4567"
+              info="(423) 241-2320"
             />
             
             <ContactInfo 
               icon={<Mail />}
               title="Email"
-              info="mshawkins@littlestitchery.com"
+              info="lois.hawkins55@aol.com"
             />
             
             <ContactInfo 
