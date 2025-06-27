@@ -36,8 +36,8 @@ const Contact = () => {
               icon={<Clock />}
               title="Hours"
               info={<>
-                Monday - Friday: 9am - 5pm<br />
-                Saturday: 10am - 2pm<br />
+                Monday - Friday: 8am - 4pm<br />
+                Saturday: Closed<br />
                 Sunday: Closed
               </>}
             />

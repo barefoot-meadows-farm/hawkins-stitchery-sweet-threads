@@ -176,9 +176,9 @@ const Index = () => {
                   title="Hours"
                   info={
                     <>
-                      Monday - Friday: 9am - 5pm
+                      Monday - Friday: 8am - 4pm
                       <br />
-                      Saturday: 10am - 2pm
+                      Saturday: Closed
                       <br />
                       Sunday: Closed
                     </>
